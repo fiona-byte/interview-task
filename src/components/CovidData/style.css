@@ -1,0 +1,55 @@
+.data__header {
+    text-align: center;
+    margin: 40px 50px;
+    font-size: 24px;
+}
+
+.data__card--container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    place-items: center;
+}
+  
+.data__card {
+    width: 230px;
+    height: 100px;
+    background: #44318d;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.data__card--header,
+.data__card--info { text-align: center; }
+
+.data__card--header {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.data__card--info {font-size: 18px; }
+
+.data__table--container { overflow-x: auto; }
+
+.data__table { border-spacing: 6rem 2rem; }
+
+.data__table thead {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.data__table td { text-align: center; }
+
+.data__table tbody{
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 768px)  {
+    .data__table { border-spacing: 3rem 2rem; }
+
+    .data__table thead { font-size: 15px; }
+    
+    .data__table tbody{ font-size: 12px; }
+}
