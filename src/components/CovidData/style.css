@@ -53,3 +53,11 @@
     
     .data__table tbody{ font-size: 12px; }
 }
+
+@media only screen and (max-width: 425px)  {
+    .data__table { border-spacing: 2rem; }
+
+    .data__table thead { font-size: 12px; }
+    
+    .data__table tbody{ font-size: 10px; }
+}
